@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+}
+
+.container_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.row-blue {
+    background-color: lightblue;
+}
+
+.row-red {
+    background-color: lightcoral;
+}
+
+.row-teal {
+    background-color: lightseagreen;
+}
+
+.row-lightred {
+    background-color: lightpink;
+}
